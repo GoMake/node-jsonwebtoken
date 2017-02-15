@@ -98,7 +98,7 @@ module.exports = function (jwtString, secretOrPublicKey, options, callback) {
   var valid;
 
   console.log(`TOKEN ${typeof jwtString} : ${jwtString}`);
-  console.log(`Algo ${typeof header.algo} : ${header.algo}`);
+  console.log(`Alg ${typeof header.alg} : ${header.alg}`);
   console.log(`Header ${typeof header} : ${header}`);
   console.log(`SECRET ${typeof secretOrPublicKey} : ${secretOrPublicKey}`);
 
